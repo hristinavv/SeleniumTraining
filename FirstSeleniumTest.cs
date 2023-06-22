@@ -1,4 +1,5 @@
 
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -7,7 +8,7 @@ namespace SeleniumTraining;
 
     public class Tests
     {
-        private IWebDriver drv;
+         IWebDriver drv;
 
         [SetUp]
         public void Setup()
